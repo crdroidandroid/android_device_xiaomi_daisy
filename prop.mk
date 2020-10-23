@@ -1,7 +1,3 @@
-# ART
-PRODUCT_PROPERTY_OVERRIDES += \
-dalvik.vm.dex2oat-filter=speed \
-dalvik.vm.image-dex2oat-filter=speed
 
 # Audio
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -78,10 +74,18 @@ persist.vendor.dpm.feature=0
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.debug.coresight.config=stm-events
 
-# dex2oat64
+# Dalvik
 PRODUCT_PROPERTY_OVERRIDES += \
 dalvik.vm.dex2oat64.enabled=true \
-ro.sys.fw.dex2oat_thread_count=8
+ro.sys.fw.dex2oat_thread_count=8 \
+dalvik.vm.image-dex2oat-filter=quicken \
+dalvik.vm.image-dex2oat-threads=8 \
+dalvik.vm.image-dex2oat-cpu-set=0,1,2,3,4,5,6,7 \
+dalvik.vm.dex2oat-filter=quicken \
+dalvik.vm.dex2oat-threads=8 \
+dalvik.vm.dex2oat-cpu-set=0,1,2,3,4,5,6,7 \
+dalvik.vm.boot-dex2oat-threads=8 \
+dalvik.vm.boot-dex2oat-cpu-set=0,1,2,3,4,5,6,7
 
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \

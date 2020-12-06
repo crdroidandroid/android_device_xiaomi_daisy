@@ -36,10 +36,13 @@ ro.vendor.audio.sdk.fluencetype=fluence
 
 # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
-bluetooth.hfp.client=1 \
-qcom.bluetooth.soc=smd \
-ro.bluetooth.hfp.ver=1.7 \
-ro.qualcomm.bt.hci_transport=smd
+persist.bluetooth.a2dp_offload.cap=sbc-aac-aptx-aptxhd-ldac \
+persist.bluetooth.a2dp_offload.disabled=false \
+persist.vendor.qcom.bluetooth.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac-aptxadaptive \
+persist.vendor.qcom.bluetooth.enable.splita2dp=false \
+persist.vendor.qcom.bluetooth.soc=pronto \
+ro.bluetooth.a2dp_offload.supported=false \
+vendor.qcom.bluetooth.soc=pronto
 
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \

@@ -64,7 +64,9 @@ function blob_fixup() {
             sed -i 's/version="2.0"/version="1.0"/g' "${2}"
             ;;
         product/lib64/libdpmframework.so)
-            "${PATCHELF}" --add-needed "libshim_dpmframework.so" "${2}"
+            for LIBSHIM_DPMFRAMEWORK in $(grep -L "libshim_dpmframework.so" "${2}"); do
+                "${PATCHELF}" --add-needed "libshim_dpmframework.so" "${2}"
+            done
             ;;
         product/lib64/lib-imsvideocodec.so)
             for LIBSHIM_IMSVIDEOCODEC in $(grep -L "libshim_imsvideocodec.so" "${2}"); do

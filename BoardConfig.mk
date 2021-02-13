@@ -184,6 +184,12 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 include device/qcom/sepolicy-legacy-um/SEPolicy.mk
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
+# Shims
+TARGET_LD_SHIM_LIBS := \
+    /vendor/lib64/hw/gf_fingerprint.goodix.default.so|fakelogprint.so \
+    /vendor/lib64/libgf_ca.so|fakelogprint.so \
+    /vendor/lib64/libgf_hal.so|fakelogprint.so
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 

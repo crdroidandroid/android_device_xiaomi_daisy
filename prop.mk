@@ -248,6 +248,11 @@ persist.vendor.ims.disableIMSLogs=1 \
 persist.vendor.ims.disableDebugLogs=1 \
 persist.vendor.ims.disableQXDMLogs=1
 
+# SoC
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.soc.manufacturer=Qualcomm \
+ro.soc.model=MSM8953
+
 # RCS
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.rcs.supported=1

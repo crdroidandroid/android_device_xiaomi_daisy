@@ -141,6 +141,10 @@ TARGET_NO_RPC := true
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
+# Init
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_daisy
+TARGET_RECOVERY_DEVICE_MODULES := libinit_daisy
+
 # HWUI
 HWUI_COMPILE_FOR_PERF := true
 

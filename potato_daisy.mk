@@ -25,6 +25,8 @@ $(call inherit-product, device/xiaomi/daisy/device.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 $(call inherit-product, vendor/potato/config/common_full_phone.mk)
 
+PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
 BUILD_FINGERPRINT := google/coral/coral:11/RQ3A.211001.001/7641976:user/release-keys
 BUILD_DESCRIPTION := coral-user 11 RQ3A.211001.001 7641976 release-keys
 

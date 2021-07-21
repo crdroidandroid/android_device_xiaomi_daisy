@@ -422,7 +422,7 @@ service vendor.qrtr-ns /vendor/bin/qrtr-ns -f
     group vendor_qrtr
     capabilities NET_BIND_SERVICE
 
-service irsc_util /vendor/bin/irsc_util "/vendor/etc/sec_config"
+service vendor.irsc_util /vendor/bin/irsc_util "/vendor/etc/sec_config"
     class core
     user root
     oneshot
@@ -461,13 +461,13 @@ on property:ro.vendor.use_data_netmgrd=false
     # netmgr not supported on specific target
     stop vendor.netmgrd
 
-service loc_launcher /system/vendor/bin/loc_launcher
+service vendor.loc_launcher /system/vendor/bin/loc_launcher
     class late_start
     user gps
     group gps
     writepid /dev/cpuset/system-background/tasks
 
-service qcom-sh /vendor/bin/init.qcom.sh
+service vendor.qcom-sh /vendor/bin/init.qcom.sh
     class late_start
     user root
     group root system radio
@@ -476,7 +476,7 @@ service qcom-sh /vendor/bin/init.qcom.sh
 on property:ro.vendor.ril.mbn_copy_completed=1
     write /data/vendor/radio/copy_complete 1
 
-service qcom-post-boot /vendor/bin/init.qcom.post_boot.sh
+service vendor.qcom-post-boot /vendor/bin/init.qcom.post_boot.sh
     class late_start
     user root
     group root system wakelock graphics
@@ -484,7 +484,7 @@ service qcom-post-boot /vendor/bin/init.qcom.post_boot.sh
     oneshot
 
 on property:sys.boot_completed=1
-    start qcom-post-boot
+    start vendor.qcom-post-boot
 
 service vendor.ril-daemon2 /vendor/bin/hw/rild -c 2
     class main

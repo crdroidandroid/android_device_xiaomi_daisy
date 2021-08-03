@@ -490,3 +490,7 @@ PRODUCT_PACKAGES += \
 # Wi-Fi Display
 PRODUCT_BOOT_JARS += \
     WfdCommon
+
+# Updater app [POSP Specific]
+PRODUCT_PACKAGES += \
+    Updater

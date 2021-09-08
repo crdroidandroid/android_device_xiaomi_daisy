@@ -975,8 +975,6 @@ vendor/lib/vendor.qti.gnss@2.1.so|5399112e8f8dad0ec0b9d9ce263038dc83350a67
 vendor/lib/vendor.qti.gnss@3.0.so|f3e6b0aa8d7b53ff167b623f7141e36f2d375757
 
 # Graphics - from LA.UM.8.6.2.r1-07100-89xx.0
-lib/libsdm-disp-apis.so:vendor/lib/libsdm-disp-apis.so|5b006423286008ba9b54b8c29e9ce2ab4b6fa14d
-lib64/libsdm-disp-apis.so:vendor/lib64/libsdm-disp-apis.so|25391818f65a4dfe3fdf0603109eacc4eedc4c13
 vendor/lib/egl/eglSubDriverAndroid.so|c1bbd0acd7b4e5f04f1e5a4c763862396a565be3
 vendor/lib/egl/libEGL_adreno.so|c187331b65eb23c4a1e93bfd4cd95ca1c43f3849
 vendor/lib/egl/libGLESv1_CM_adreno.so|e5bdebe27271194b315fef65bbc490e4144dd272

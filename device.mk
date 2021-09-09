@@ -207,9 +207,9 @@ PRODUCT_PACKAGES += \
     hwcomposer.msm8953 \
     memtrack.msm8953 \
     libdisplayconfig \
-    libqdMetaData.system \
     libgenlock \
-    libtinyxml
+    libtinyxml \
+    vendor.display.config@1.0.vendor
 
 # DRM
 PRODUCT_PACKAGES += \
@@ -498,10 +498,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     charger_res_images \
     product_charger_res_images
-
-# Wi-Fi Display
-PRODUCT_BOOT_JARS += \
-    WfdCommon
 
 # Updater app [POSP Specific]
 PRODUCT_PACKAGES += \

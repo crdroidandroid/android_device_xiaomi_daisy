@@ -858,9 +858,6 @@ vendor/bin/hvdcp_opti
 vendor/lib64/hw/consumerir.default.so
 
 # Fingerprint - from Daisy QKQ1.191002.002-V11.0.5.0.QDLMIXM
--vendor/app/FingerprintExtensionService/FingerprintExtensionService.apk
-vendor/etc/permissions/com.fingerprints.extension.xml
-vendor/framework/com.fingerprints.extension.jar
 vendor/lib/vendor.qti.hardware.fingerprint@1.0.so
 vendor/lib64/com.fingerprints.extension@1.0.so
 vendor/lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.fpc.default.so

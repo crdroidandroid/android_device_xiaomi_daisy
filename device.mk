@@ -501,6 +501,10 @@ PRODUCT_COPY_FILES += \
 # Disable Face Unlock
 TARGET_DISABLE_ALTERNATIVE_FACE_UNLOCK := true
 
+# Network
+PRODUCT_PACKAGES += \
+    android.system.net.netd@1.1.vendor
+
 # Wifi
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \

@@ -56,6 +56,7 @@ persist.camera.stats.test=5
 persist.vendor.qti.telephony.vt_cam_interface=1
 persist.vendor.camera.dual.camera=0
 vidc.enc.dcvs.extra-buff-count=2
+persist.vendor.camera.aux.camera=1
 
 # Charger
 ro.charger.disable_init_blank=true

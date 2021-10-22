@@ -63,6 +63,7 @@ vendor.camera.lowpower.record.enable=1 \
 persist.vendor.qti.telephony.vt_cam_interface=2 \
 persist.vendor.camera.eis.enable=1 \
 persist.vendor.camera.CDS=off \
+persist.vendor.camera.perflock.enable=0 \
 persist.vendor.camera.aux.camera=1
 
 # Charger

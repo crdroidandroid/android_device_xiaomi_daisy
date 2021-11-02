@@ -6,7 +6,6 @@ audio.chk.cal.us=0 \
 audio.offload.disable=false \
 audio.offload.min.duration.secs=30 \
 audio.offload.video=true \
-debug.stagefright.omx_default_rank.sw-audio=1 \
 persist.vendor.audio.hw.binder.size_kbyte=1024 \
 persist.vendor.audio.speaker.prot.enable=false \
 ro.audio.soundfx.dirac=true \

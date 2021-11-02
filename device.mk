@@ -206,6 +206,7 @@ PRODUCT_PACKAGES += \
     libdisplayconfig \
     libgenlock \
     libtinyxml \
+    libvulkan \
     vendor.display.config@1.0.vendor
 
 # DRM

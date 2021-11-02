@@ -884,21 +884,21 @@ vendor/etc/init/dpmQmiMgr.rc|d4d813ad5dbb955adac550c032607613fa58dae8
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|c5c893e86d38b8aa8cd277ccb8b011fb2f19995e
 vendor/lib64/libdpmqmihal.so|ffcd85e1f6bf7d54f37953edc2cb2c4a61fc894a
 
-# DRM - from LA.UM.8.6.2.r1-06600-89xx.0
-vendor/bin/qseecomd|b6b1b78a4dc7085c2f49d40072094152fb2aecc5
-vendor/lib/libQSEEComAPI.so|bfa1d200090f27f6c67022dbdf3f6638143d0988
-vendor/lib64/libGPreqcancel.so|bfff7b7d51e917a16b9a15a27fb81e16d0359348
-vendor/lib64/libGPreqcancel_svc.so|b89242ce41cfd237f963e1e2c5a8326c3676c434
-vendor/lib64/libQSEEComAPI.so|5908d79ae12f2e8b00573b97ed22dea636e25681
-vendor/lib64/libSecureUILib.so|f81fb938598c3cd81dfe10a6c50a7babfd111935
-vendor/lib64/libStDrvInt.so|8c8776fc21988ceca25f6877a10862e12ba02681
-vendor/lib64/libdrmfs.so|213aed3ca4d08cd9b41113ab3b101110d043b3ff
-vendor/lib64/libdrmtime.so|fe3512ddedbe49c4b6c39d5dec19a398bddbc816
-vendor/lib64/libqisl.so|c4e7f283f3d416b784f2ec0f7000d607e044809b
-vendor/lib64/librpmb.so|e8c4f3aec58a248d70094194d2831c1f337bacd2
-vendor/lib64/libsecureui.so|fc29832bebb89e7edb8cb46d45ee5cb8fdcdf3d8
-vendor/lib64/libsecureui_svcsock.so|7441cfd83ed51ab13d564f81bc3744c488f08fe2
-vendor/lib64/libssd.so|bcb7c4213115f2377e0d30dd1a05cae5e88212e4
+# DRM
+vendor/bin/qseecomd
+vendor/lib/libQSEEComAPI.so
+vendor/lib64/libGPreqcancel.so
+vendor/lib64/libGPreqcancel_svc.so
+vendor/lib64/libQSEEComAPI.so
+vendor/lib64/libSecureUILib.so
+vendor/lib64/libStDrvInt.so
+vendor/lib64/libdrmfs.so
+vendor/lib64/libdrmtime.so
+vendor/lib64/libqisl.so
+vendor/lib64/librpmb.so
+vendor/lib64/libsecureui.so
+vendor/lib64/libsecureui_svcsock.so
+vendor/lib64/libssd.so
 
 # Gatekeeper
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
@@ -1441,14 +1441,14 @@ vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e157937
 vendor/lib/vendor.qti.hardware.tui_comm@1.0.so|1a3bd8be98867f7af79edd76a25ec00865fd8915
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|1ac676dca4c81094b254b62f1b608e471b385847
 
-# Widevine - from LA.UM.8.6.2.r1-06600-89xx.0
-vendor/bin/hw/android.hardware.drm@1.2-service.widevine|b626d9bbf7043c66c8ef903c9d0e5183fc47388d
-vendor/bin/hw/android.hardware.drm@1.2-service.clearkey|96007d6d553925bec04412293e3a5fcfb4928bb0
-vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc|e3cb732c0bd519988100675edf385d947abf5f6c
-vendor/etc/init/android.hardware.drm@1.2-service.clearkey.rc|a3f4d3a6ddbdf66d56e5951454660b1a12fab89a
-vendor/lib/mediadrm/libdrmclearkeyplugin.so|0eed3e515e175010abbd567827a0b73b846d06b5
-vendor/lib64/mediadrm/libdrmclearkeyplugin.so|1b9850ee390f932c34f667883278ce3a7bc9b3fa
-vendor/lib64/libwvhidl.so|4af61fdcf1186700ea7ee23c607fb9ce5fd0f0e8
+# Widevine
+vendor/bin/hw/android.hardware.drm@1.2-service.widevine
+vendor/bin/hw/android.hardware.drm@1.2-service.clearkey
+vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc
+vendor/etc/init/android.hardware.drm@1.2-service.clearkey.rc
+vendor/lib/mediadrm/libdrmclearkeyplugin.so
+vendor/lib64/mediadrm/libdrmclearkeyplugin.so
+vendor/lib64/libwvhidl.so
 
 # Wi-Fi
 vendor/bin/wcnss_service

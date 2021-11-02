@@ -830,8 +830,8 @@ vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so|b17a82a9740832bd686c3d4c4e36d0e
 vendor/lib64/vendor.qti.hardware.mwqemadapter@1.0.so|09f4b85830f120db89945069cd30f997fbcfad6a
 vendor/lib64/vendor.qti.hardware.slmadapter@1.0.so|07bf28004086b972367c44703bd0247d7a78faf4
 
-# Charger
-vendor/bin/hvdcp_opti
+# Charger - from LA.UM.9.6.2.r1-03600-89xx.0
+vendor/bin/hvdcp_opti|3de1af4b7dd9b4e5938bbeedb6e84ad50b415510
 
 # Consumer IR - from Daisy QKQ1.191002.002-V11.0.5.0.QDLMIXM
 vendor/lib64/hw/consumerir.default.so

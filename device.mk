@@ -353,6 +353,11 @@ PRODUCT_PACKAGES += \
     libjson \
     libjson.vendor
 
+# QTI
+PRODUCT_PACKAGES += \
+    libqti_vndfwk_detect \
+    libqti_vndfwk_detect.vendor
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom \

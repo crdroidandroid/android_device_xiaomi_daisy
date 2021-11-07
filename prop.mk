@@ -281,6 +281,10 @@ wifi.interface=wlan0
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.device_config.runtime_native.usap_pool_enabled=true
 
+# IORap
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.iorapd.enable=false
+
 # Updater app [POSP Specific]
 PRODUCT_PROPERTY_OVERRIDES += \
 potato.updater.uri=https://raw.githubusercontent.com/LinkBoi00-Development/otaupdater/master/1.json

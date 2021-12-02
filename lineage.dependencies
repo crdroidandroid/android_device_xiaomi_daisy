@@ -15,20 +15,5 @@
     "repository"  : "kdrag0n/proton-clang", 
     "target_path"  : "prebuilts/clang/host/linux-x86/clang-proton", 
     "branch"  : "master"
-  },
-    "remote"  : "github", 
-    "repository"  : "Jabiyeff-Project/android_hardware_audio", 
-    "target_path"  : "hardware/qcom-caf/msm8996-daisy/audio", 
-    "branch"  : "11.0"
-  },
-    "remote"  : "github", 
-    "repository"  : "Jabiyeff-Project/android_hardware_media", 
-    "target_path"  : "hardware/qcom-caf/msm8996-daisy/media", 
-    "branch"  : "11.0"
-  },
-    "remote"  : "github", 
-    "repository"  : "Jabiyeff-Project/android_hardware_display", 
-    "target_path"  : "hardware/qcom-caf/msm8996-daisy/display", 
-    "branch"  : "11.0"
   }
 ]

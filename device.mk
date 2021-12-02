@@ -507,7 +507,3 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     charger_res_images \
     product_charger_res_images
-
-# Updater app [POSP Specific]
-PRODUCT_PACKAGES += \
-    Updater

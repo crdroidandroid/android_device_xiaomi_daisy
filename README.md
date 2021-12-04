@@ -1,4 +1,4 @@
-Copyright (C) 2020 Potato Open Sauce Project
+Copyright (C) 2017-2021 The LineageOS Project
 
 The Mi A2 Lite (codenamed _"daisy"_) smartphone from Xiaomi.
 

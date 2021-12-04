@@ -284,3 +284,7 @@ persist.device_config.runtime_native.usap_pool_enabled=true
 # IORap
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.iorapd.enable=false
+
+# Blur
+PRODUCT_PROPERTY_OVERRIDES += \
+persist.sys.sf.disable_blurs=1

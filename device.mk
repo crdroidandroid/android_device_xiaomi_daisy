@@ -110,13 +110,15 @@ PRODUCT_PACKAGES += \
     audio.primary.msm8953:32 \
     audio.r_submix.default \
     audio.usb.default \
+    libaudiopreprocessing \
     libaudioroute \
     libaacwrapper \
     libaudio-resampler \
     libqcomvisualizer \
     libqcomvoiceprocessing \
     libqcompostprocbundle \
-    libvolumelistener
+    libvolumelistener \
+    libtinycompress
 
 # Audio configuration
 PRODUCT_COPY_FILES += \

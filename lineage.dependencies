@@ -3,13 +3,13 @@
     "remote"  : "github", 
     "repository" : "Couchpotato-sauce/kernel_xiaomi_sleepy",
     "target_path" : "kernel/xiaomi/msm8953",
-    "branch" : "eleven"
+    "branch" : "11.0"
   },
   {
     "remote"  : "github", 
-    "repository" : "LinkBoi00-Development/vendor_xiaomi_daisy",
+    "repository" : "crdroidandroid/vendor_xiaomi_daisy",
     "target_path" : "vendor/xiaomi/daisy",
-    "branch" : "eleven"
+    "branch" : "11.0"
   },
     "remote"  : "github", 
     "repository"  : "kdrag0n/proton-clang", 

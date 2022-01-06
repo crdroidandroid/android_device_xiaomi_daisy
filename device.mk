@@ -379,7 +379,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/power/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml
 
 # Properties
--include device/xiaomi/daisy/prop.mk
+include device/xiaomi/daisy/prop.mk
 
 # QMI
 PRODUCT_PACKAGES += \

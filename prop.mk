@@ -253,10 +253,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 ro.soc.manufacturer=Qualcomm \
 ro.soc.model=MSM8953
 
-# RCS
-PRODUCT_PROPERTY_OVERRIDES += \
-persist.rcs.supported=1
-
 # SurfaceFlinger
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 ro.surface_flinger.protected_contents=true

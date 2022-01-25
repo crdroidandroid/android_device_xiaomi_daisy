@@ -282,14 +282,6 @@ wifi.interface=wlan0
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.device_config.runtime_native.usap_pool_enabled=true
 
-# IORap
-PRODUCT_PROPERTY_OVERRIDES += \
-ro.iorapd.enable=false
-
 # System
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.sys.binary_xml=false
-
-# Blur
-PRODUCT_PROPERTY_OVERRIDES += \
-persist.sys.sf.disable_blurs=1

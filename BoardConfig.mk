@@ -55,10 +55,6 @@ KERNEL_TOOLCHAIN_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-proto
 # ANT
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
 
-# APEX image
-DEXPREOPT_GENERATE_APEX_IMAGE := true
-OVERRIDE_TARGET_FLATTEN_APEX := true
-
 # Audio
 USE_DEVICE_SPECIFIC_AUDIO := true
 DEVICE_SPECIFIC_AUDIO_PATH := $(DEVICE_PATH)/qcom-caf/audio

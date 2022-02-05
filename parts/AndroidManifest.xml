@@ -75,8 +75,7 @@
 
         <activity
             android:name=".camera.CameraActivity"
-            android:label="@string/camera_title"
-            android:theme="@style/Theme.Main">
+            android:label="@string/camera_title">
             <intent-filter>
                 <action android:name="com.android.settings.action.IA_SETTINGS" />
             </intent-filter>

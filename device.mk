@@ -110,6 +110,7 @@ PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl:32 \
     android.hardware.audio.service \
     android.hardware.audio.effect@6.0-impl:32 \
+    android.hardware.bluetooth@1.0.vendor \
     audio.a2dp.default \
     audio.primary.msm8953:32 \
     audio.r_submix.default \

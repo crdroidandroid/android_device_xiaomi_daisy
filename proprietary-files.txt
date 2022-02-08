@@ -1385,9 +1385,7 @@ vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|b478f9ba87abd265ac15a154ab7412f
 
 # Widevine - from daisy-user 10 QKQ1.191002.002 V11.0.21.0.QDLMIXM release-keys
 vendor/bin/hw/android.hardware.drm@1.2-service.widevine|e130b8f1c8d46d8a185b00cba5ff8a2a871ee94c
-vendor/bin/hw/android.hardware.drm@1.2-service.clearkey|5ff31ea93edc2f50c9b23fb3d2bf56b3988c58f2
 vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc|dee5b7838ac561a2292e89fc0c4ccd1932224215
-vendor/etc/init/android.hardware.drm@1.2-service.clearkey.rc|a3f4d3a6ddbdf66d56e5951454660b1a12fab89a
 vendor/lib/mediadrm/libdrmclearkeyplugin.so|3d51948af3cd0434d7b39e9b5fb78daba2f3a5e2
 vendor/lib64/mediadrm/libdrmclearkeyplugin.so|cfb999591f3ff0a9d633004657a420b914ff2c41
 vendor/lib64/libwvhidl.so|a701374f4c0a6b6924b3f81c304505db48b3f9e1

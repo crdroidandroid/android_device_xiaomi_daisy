@@ -27,8 +27,8 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-BUILD_FINGERPRINT := google/coral/coral:12/SQ1A.211205.008/7888514:user/release-keys
-BUILD_DESCRIPTION := coral-user 12 SQ1A.211205.008 7888514 release-keys
+BUILD_FINGERPRINT := xiaomi/daisy/daisy_sprout:10/QKQ1.191002.002/V11.0.21.0.QDLMIXM:user/release-keys
+BUILD_DESCRIPTION := daisy-user 10 QKQ1.191002.002 V11.0.21.0.QDLMIXM release-keys
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)

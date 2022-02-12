@@ -9,3 +9,6 @@ vendor_public_prop(vendor_slm_prop)
 
 # Wi-Fi prop
 vendor_internal_prop(vendor_wifi_prop)
+
+# HAL3 | HAL1 Switch
+system_internal_prop(system_camera_prop)

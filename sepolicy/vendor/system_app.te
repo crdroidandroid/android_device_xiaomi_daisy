@@ -1,1 +1,2 @@
-allow system_app camera_prop:property_service { set };
+# HAL3 | HAL1 Switch
+set_prop(system_app, system_camera_prop)

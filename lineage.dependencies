@@ -11,9 +11,9 @@
     "target_path" : "vendor/xiaomi/daisy",
     "branch" : "eleven"
   },
-    "remote"  : "github", 
-    "repository"  : "kdrag0n/proton-clang", 
-    "target_path"  : "prebuilts/clang/host/linux-x86/clang-proton", 
-    "branch"  : "master"
+    "remote"  : "gitlab", 
+    "repository"  : "Panchajanya1999/azure-clang", 
+    "target_path"  : "prebuilts/clang/host/linux-x86/clang-azure", 
+    "branch"  : "main"
   }
 ]

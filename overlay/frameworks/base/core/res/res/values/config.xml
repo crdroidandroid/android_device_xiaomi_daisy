@@ -275,7 +275,7 @@
     <!-- Height of the status bar -->
     <dimen name="status_bar_height_default">94.0px</dimen>
     <dimen name="status_bar_height_portrait">94.0px</dimen>
-    <dimen name="status_bar_height_landscape">24.0dp</dimen>
+    <dimen name="status_bar_height_landscape">35.0dp</dimen>
 
 
     <!-- When true use the linux /dev/input/event subsystem to detect the switch changes

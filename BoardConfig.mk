@@ -32,8 +32,6 @@ BOARD_KERNEL_PAGESIZE :=  2048
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --tags_offset 0x00000100
 TARGET_KERNEL_VERSION := 4.9
 KERNEL_LD := LD=ld.lld
-TARGET_KERNEL_CLANG_VERSION := azure
-KERNEL_TOOLCHAIN_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-azure/bin/aarch64-linux-gnu-
 TARGET_KERNEL_SOURCE := kernel/xiaomi/msm8953
 
 # ANT

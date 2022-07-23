@@ -1,0 +1,19 @@
+[
+  {
+    "remote"  : "gitlab", 
+    "repository" : "LinkBoi00/android_kernel_xiaomi_daisy",
+    "target_path" : "kernel/xiaomi/msm8953",
+    "branch" : "12.1"
+  },
+  {
+    "remote"  : "gitlab", 
+    "repository" : "LinkBoi00/android_vendor_xiaomi_daisy",
+    "target_path" : "vendor/xiaomi/daisy",
+    "branch" : "12.1"
+  },
+    "remote"  : "gitlab", 
+    "repository"  : "Panchajanya1999/azure-clang", 
+    "target_path"  : "prebuilts/clang/host/linux-x86/clang-azure", 
+    "branch"  : "main"
+  }
+]
